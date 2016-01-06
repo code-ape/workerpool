@@ -1,0 +1,18 @@
+[package]
+name = "workerpool"
+version = "0.1.0"
+authors = ["Ferris Ellis <ferris@ferrisellis.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/code-ape/workerpool"
+documentation = "https://code-ape.github.io/workerpool"
+homepage = "https://github.com/code-ape/workerpool"
+description = """
+A simple workerpool for handling jobs across multiple threads
+"""
+
+[dependencies]
+log = "0.3.4"
+
+[dev-dependencies]
+env_logger = "0.3.2"
